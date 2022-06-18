@@ -55,7 +55,6 @@ c/earthTVnetwork
 c/SpaceVideosHD
 c/ForexLia
 c/EnglishSpeeches
-c/EnglishClass101
 c/kidstv
 c/HappyKidsTVNurseryRhymes
 c/JugnuKidsVideos
