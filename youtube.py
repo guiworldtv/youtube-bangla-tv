@@ -7,23 +7,27 @@ from bs4 import BeautifulSoup
 channel_no = 0
 m3u = None
 def get_live_info(channel_id):
-    webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
-    soup = BeautifulSoup(webpage, 'html.parser')
-    urlMeta = soup.find("meta", property="og:url")
-    if urlMeta is None:
-        return None
-    url = urlMeta.get("content")
-    if(url is None or url.find("/watch?v=") == -1):
-        return None
-    titleMeta = soup.find("meta", property="og:title")
-    imageMeta = soup.find("meta", property="og:image")
-    descriptionMeta = soup.find("meta", property="og:description")
-    return {
-        "url": url,
-        "title": titleMeta.get("content"),
-        "image": imageMeta.get("content"),
-        "description": descriptionMeta.get("content")
-    }
+    try:
+        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
+        soup = BeautifulSoup(webpage, 'html.parser')
+        urlMeta = soup.find("meta", property="og:url")
+        if urlMeta is None:
+            return None
+        url = urlMeta.get("content")
+        if(url is None or url.find("/watch?v=") == -1):
+            return None
+        titleMeta = soup.find("meta", property="og:title")
+        imageMeta = soup.find("meta", property="og:image")
+        descriptionMeta = soup.find("meta", property="og:description")
+        return {
+            "url": url,
+            "title": titleMeta.get("content"),
+            "image": imageMeta.get("content"),
+            "description": descriptionMeta.get("content")
+        }
+    
+    except Exception as e:
+                return None
 
 def generate_youtube_tv():
     global channel_no
