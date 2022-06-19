@@ -29,6 +29,7 @@ c/News18Bangla
 c/abpanandatv
 c/TV9BanglaLive
 c/KOLKATATV
+c/channel40
 c/PB24NewsBangla
 c/ABCNews
 c/NBCNews
