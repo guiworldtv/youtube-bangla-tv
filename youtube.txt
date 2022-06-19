@@ -1,6 +1,7 @@
 c/DBCNEWSTV
 c/Ekattorlive
 c/ATNNewsLive
+c/atnnewsltd
 c/SomoytvNetupdate
 c/channel24digital
 c/JamunaTVbd
