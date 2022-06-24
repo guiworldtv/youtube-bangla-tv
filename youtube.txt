@@ -8,6 +8,7 @@ c/channel24digital
 c/JamunaTVbd
 c/NEWS24TV
 c/IndependentTelevision
+c/DhakaliveTv
 c/BangladeshTelevision-BTV
 c/ChanneliLive24
 c/channelionline
