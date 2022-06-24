@@ -1,5 +1,6 @@
 c/DBCNEWSTV
 c/Ekattorlive
+user/CH71TV
 c/ATNNewsLive
 c/atnnewsltd
 c/SomoytvNetupdate
