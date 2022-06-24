@@ -26,11 +26,15 @@ c/IBTVUSA
 c/BangladeshFootballFederation
 c/Zee24Ghanta
 channel/UCajVjEHDoVn_AHsunUZz_EQ
+channel/UCWk-oXrwX3Na7AeHArCun2w
 c/CalcuttaNewsAKD
 c/News18Bangla
 c/abpanandatv
 c/TV9BanglaLive
 c/KOLKATATV
+c/ccondigitalbangla24
+c/AsianetNewsBangla
+c/CHANNELDINRAATLIVE
 c/NewsVanguard
 c/PB24NewsBangla
 c/ABCNews
