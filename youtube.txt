@@ -22,6 +22,7 @@ c/AsianTVHD
 c/TSportsbd
 c/RabbitholebdSports
 c/RtvMusic
+c/IBTVUSA
 c/BangladeshFootballFederation
 c/Zee24Ghanta
 channel/UCajVjEHDoVn_AHsunUZz_EQ
