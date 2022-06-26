@@ -15,6 +15,7 @@ c/channelionline
 c/GTVonline
 c/BanglaVisionLIVE24
 c/RtvLiveBD
+c/RtvNews
 c/NTVDigital
 c/NagorikTVonline
 c/boishakhitvbd
