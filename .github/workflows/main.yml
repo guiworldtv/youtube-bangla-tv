@@ -1,4 +1,4 @@
-name: youtube-brazil-tv-m3u8-generator
+name: youtube-world-tv-m3u8-generator
 
 on:
   push:
