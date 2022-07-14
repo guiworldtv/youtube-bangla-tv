@@ -79,28 +79,6 @@ print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TI
 print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml"')
 print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"')
 
-
-
-def create_playlist():
-    global m3u
-    m3u = open("youtube.m3u8", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("\n")
-
-def close_playlist():
-    global m3u
-    m3u.close()
-def generate_youtube_PlayList():
-    create_playlist()
-    generate_youtube_tv()
-    close_playlist()
-
-
-if __name__ == '__main__':
-    generate_youtube_PlayList()
-
-print(banner)
-
 #! /usr/bin/python3
 
 banner = r'''
@@ -531,3 +509,25 @@ http://200.115.193.177/live/26hd-720/.m3u8
 
 
 '''
+
+def create_playlist():
+    global m3u
+    m3u = open("youtube.m3u8", "w")
+    m3u.write("#EXTM3U")
+    m3u.write("\n")
+
+def close_playlist():
+    global m3u
+    m3u.close()
+def generate_youtube_PlayList():
+    create_playlist()
+    generate_youtube_tv()
+    close_playlist()
+
+
+if __name__ == '__main__':
+    generate_youtube_PlayList()
+
+print(banner)
+
+
