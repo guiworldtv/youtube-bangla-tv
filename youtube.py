@@ -505,6 +505,11 @@ def write_to_playlist(content):
     global m3u
     m3u.write(content)
 
+print('#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/ar/mi.tv.epg.xml"')
+print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mudstein/XML/main/TIZENsiptv.xml"')
+print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/K-vanc/Tempest-EPG-Generator/main/Siteconfigs/Argentina/%5BENC%5D%5BEX%5Delcuatro.com_0.channel.xml"')
+print('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Nicolas0919/Guia-EPG/master/GuiaEPG.xml"')
+
 def create_playlist():
     global m3u
     m3u = open("youtube.m3u8", "w")
@@ -523,3 +528,4 @@ def generate_youtube_PlayList():
 if __name__ == '__main__':
     generate_youtube_PlayList()
 
+print(banner)
