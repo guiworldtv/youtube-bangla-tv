@@ -1,5 +1,6 @@
 c/ABCNews
 c/NBCNews
 c/CBSNews
+c/recordnews
 c/RECORDTVJAPAN
 c/cnnee
