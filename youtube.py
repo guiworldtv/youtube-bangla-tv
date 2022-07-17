@@ -89,9 +89,9 @@ def write_to_playlist(content):
 def create_playlist():
     global m3u
     m3u = open("youtube.m3u8", "w")
-    m3u.write("#EXTM3U")
-    m3u.write("#EXT-X-VERSION:3")
-    m3u.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000")  
+    print(f'\n#EXTM3U')
+    print(f'\n#EXT-X-VERSION:3')
+    print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000')  
         
     m3u.write("\n")
 
