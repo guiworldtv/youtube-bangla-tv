@@ -90,6 +90,9 @@ def create_playlist():
     global m3u
     m3u = open("youtube.m3u8", "w")
     m3u.write("#EXTM3U")
+    m3u.write("#EXT-X-VERSION:3")
+    m3u.write("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000")  
+        
     m3u.write("\n")
 
     
