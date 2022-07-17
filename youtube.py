@@ -35,6 +35,9 @@ banner = r'''
 
 #EXTM3U x-tvg-url="https://iptvx.one/epg/epg.xml.gz"
 
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000
 '''
 
 
@@ -89,9 +92,7 @@ def write_to_playlist(content):
 def create_playlist():
     global m3u
     m3u = open("youtube.m3u8", "w")
-    print(f'\n#EXTM3U')
-    print(f'\n#EXT-X-VERSION:3')
-    print(f'\n#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5400000')  
+  
         
     m3u.write("\n")
 
