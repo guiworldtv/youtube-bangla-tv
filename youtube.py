@@ -10,7 +10,7 @@ channel_no = 0
 m3u = None
 def get_live_info(channel_id):
     try:
-        webpage = urlopen(f"https://twitch.tv/{channel_id}").read()
+        webpage = urlopen(f"https://www.youtube.com/{channel_id}/live").read()
         soup = BeautifulSoup(webpage, 'html.parser')
         urlMeta = soup.find("meta", property="og:url")
         if urlMeta is None:
@@ -59,7 +59,7 @@ def generate_youtube_tv():
             try:
                 with ydl:
                     result = ydl.extract_info(
-                        f"twitch.tv/{line}",
+                        f"https://www.youtube.com/{line}/live",
                         download=False  # We just want to extract the info
                     )
 
